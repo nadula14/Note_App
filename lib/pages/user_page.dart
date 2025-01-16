@@ -9,7 +9,9 @@ class UserPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("username : $userName  and userage : $userAge"),
+        child: Text(" $userName#$userAge",
+       
+        ),
       ),
     );
   }
