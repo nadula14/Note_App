@@ -38,7 +38,7 @@ class RouterClass {
                 name: "child",
                 path: "child",
                 builder: (context, state) {
-                  return const ChildPage();
+                  return  ChildPage();
                 },
               )
             ]),
