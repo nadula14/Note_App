@@ -12,7 +12,6 @@ class UserPage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Text(" $userName",
-       
         ),
       ),
     );
